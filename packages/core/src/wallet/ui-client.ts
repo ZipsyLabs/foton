@@ -1,4 +1,5 @@
-import { TonConnectUI, TonConnectUiOptionsWithManifest } from '@zipsylabs/tonconnect-ui';
+// @ts-ignore
+import TonConnectUI, {TonConnectUiOptionsWithManifest} from '@zipsylabs/tonconnect-ui';
 
 import { ConnectUIFunctionUnavailableInNodeError } from '../shared/errors/syntax-errors.js';
 import type { WalletClientUI } from './types.js';

@@ -1,4 +1,7 @@
-import { isWalletInfoCurrentlyInjected, isWalletInfoInjectable, isWalletInfoRemote, isWalletInfoCurrentlyEmbedded } from '@zipsylabs/tonconnect-sdk';
+import isWalletInfoCurrentlyInjected from '@zipsylabs/tonconnect-sdk';
+import isWalletInfoInjectable from '@zipsylabs/tonconnect-sdk';
+import isWalletInfoRemote from '@zipsylabs/tonconnect-sdk';
+import isWalletInfoCurrentlyEmbedded from '@zipsylabs/tonconnect-sdk';
 import type { WalletClientBase, WalletInfo } from './types.js';
 import { type DataOrError, returnData } from '../shared/errors/index.js';
 

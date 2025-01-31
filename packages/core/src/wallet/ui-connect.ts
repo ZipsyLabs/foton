@@ -1,7 +1,8 @@
 import type { Wallet, WalletClientBase, WalletInfo } from './types.js';
 import { isTonConnectUI } from './utils.js';
 import { returnError, DataOrTypedError, returnData } from '../shared/errors/index.js';
-import { TonConnectUI } from '@zipsylabs/tonconnect-ui';
+// @ts-ignore
+import TonConnectUI from "@zipsylabs/tonconnect-ui";
 
 const openConnectionModal = async (client: WalletClientBase, connector?: WalletInfo): Promise<void> => {
   const connection = client.connection as TonConnectUI;
@@ -52,6 +53,7 @@ export async function connectUI (
     });
 
     // If the modal is closed, reject the promise with the error
+    // @ts-ignore
     const unsubscribe = this.connection.onModalStateChange((state) => {
       if (state.status === 'closed') {
         setTimeout(() => { // Set timeout, so the function fires after the wallet state change
