@@ -1,4 +1,4 @@
-import type { RpcClient } from '@fotonjs/api';
+import type { RpcClient } from '@zipsylabs/fotonjs-api';
 
 import type { waitForTransaction } from './wait-for-transaction.js';
 import type { getBalance } from './get-balance.js';

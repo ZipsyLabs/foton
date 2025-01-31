@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { parseTon, getJettonDeployArguments } from '@fotonjs/core';
+import { parseTon, getJettonDeployArguments } from '@zipsylabs/fotonjs-core';
 
 import { contractClient, publicClient } from '../ton-clients.ts';
 

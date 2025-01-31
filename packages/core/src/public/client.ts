@@ -1,4 +1,4 @@
-import { createClient, type CreateClientOptions } from '@fotonjs/api';
+import { createClient, type CreateClientOptions } from '@zipsylabs/fotonjs-api';
 
 import { waitForTransaction } from './wait-for-transaction.js';
 import { getBalance } from './get-balance.js';

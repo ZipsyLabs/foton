@@ -20,7 +20,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@fotonjs/client": ["./.foton/index.ts"]
+      "@zipsylabs/fotonjs-client": ["./.foton/index.ts"]
     }
   },
   "include": ["src"],

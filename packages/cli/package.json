@@ -1,5 +1,5 @@
 {
-  "name": "@fotonjs/cli",
+  "name": "@zipsylabs/fotonjs-cli",
   "version": "0.0.1",
   "description": "Foton CLI: compile, run test Tact smart contracts",
   "keywords": [

@@ -1,5 +1,5 @@
 {
-  "name": "@fotonjs/counter",
+  "name": "@zipsylabs/fotonjs-counter",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fotonjs/contracts": "workspace:*",
+    "@zipsylabs/fotonjs-contracts": "workspace:*",
     "@ton/core": "^0.56.3",
     "@tonconnect/ui": "^2.0.6",
     "@tonconnect/ui-react": "^2.0.6",
@@ -19,9 +19,9 @@
     "viem": "^2.17.8"
   },
   "devDependencies": {
-    "@fotonjs/api": "workspace:*",
-    "@fotonjs/cli": "workspace:*",
-    "@fotonjs/core": "workspace:*",
+    "@zipsylabs/fotonjs-api": "workspace:*",
+    "@zipsylabs/fotonjs-cli": "workspace:*",
+    "@zipsylabs/fotonjs-core": "workspace:*",
     "@tact-lang/compiler": "^1.4.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

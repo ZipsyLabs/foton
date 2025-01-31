@@ -1,5 +1,5 @@
 {
-  "name": "@fotonjs/core",
+  "name": "@zipsylabs/fotonjs-core",
   "version": "0.0.9",
   "description": "Foton: build TON dApps with ease",
   "keywords": [
@@ -40,7 +40,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@fotonjs/api": "workspace:^",
+    "@zipsylabs/fotonjs-api": "workspace:^",
     "@ton/core": "^0.59.0",
     "@ton/crypto": "^3.3.0",
     "@zipsylabs/tonconnect-sdk": "^4.0.0",

@@ -1,6 +1,6 @@
 import { FC, FormEventHandler, useState } from 'react';
 import styles from './styles.module.css';
-import { getJettonDeployArguments, parseTon } from '@fotonjs/core';
+import { getJettonDeployArguments, parseTon } from '@zipsylabs/fotonjs-core';
 import { contractClient, publicClient, walletClient } from '../../ton-clients.ts';
 import { AppSection } from '../section';
 import { useUserStore } from '../../stores/user-store.ts';

@@ -3,7 +3,7 @@
 `PublicClient` is used to query the TON blockchain. Since TON nodes use [ADNL protocol](https://docs.ton.org/learn/networking/adnl), it cannot be queried
 directly from the browser. To do so, developers have to connect to an indexer server with a REST API and rely on this server's availability.
 
-Foton supports [TON Center API V3](https://toncenter.com/) through `@fotonjs/api` package. This API limits the rate of requests depending on the subscription plan:
+Foton supports [TON Center API V3](https://toncenter.com/) through `@zipsylabs/fotonjs-api` package. This API limits the rate of requests depending on the subscription plan:
 - Free without access key: 1rps
 - Free with access key: 10rps
 - Plus for 2.5 TON/month: 25rps
@@ -16,14 +16,14 @@ As an alternative option, you can set up [your own indexer server](https://githu
 ## Import
 
 ```ts
-import { createPublicClient } from '@fotonjs/core';
+import { createPublicClient } from '@zipsylabs/fotonjs-core';
 ```
 
 ## Usage
 
 Initialize the client on the mainnet (by default) with the TON Center API access token:
 ```ts
-import { createPublicClient } from '@fotonjs/core';
+import { createPublicClient } from '@zipsylabs/fotonjs-core';
 
 const publicClient = createPublicClient({
   api: 'mainnet',

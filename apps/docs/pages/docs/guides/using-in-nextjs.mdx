@@ -8,7 +8,7 @@ However, you can use Foton in Next.js applications by following these steps:
 The default Wallet Client works fine in Next.js applications since it doesn't provide any UI. You can use it in a normal fashion:
 
 ```ts filename="src/ton-clients.ts"
-import { createWalletClient } from '@fotonjs/core';
+import { createWalletClient } from '@zipsylabs/fotonjs-core';
 
 export const walletClient = createWalletClient({
   chain: 'mainnet',
@@ -42,7 +42,7 @@ UI Client requires a DOM environment, so you need to define it inside a componen
 'use client';
 
 import { useEffect } from 'react';
-import { createWalletClientUI, WalletClientUI } from '@fotonjs/core';
+import { createWalletClientUI, WalletClientUI } from '@zipsylabs/fotonjs-core';
 
 let walletClient: WalletClientUI;
 

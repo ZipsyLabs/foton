@@ -1,4 +1,4 @@
-# @fotonjs/core
+# @zipsylabs/fotonjs-core
 
 Main library for communicating with the TON blockchain.
 

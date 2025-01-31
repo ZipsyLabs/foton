@@ -60,7 +60,7 @@ const wallet = await connect();
 Now, take a look at how easy it is to connect to any of supported wallets with Foton:
 
 ```ts
-import { createWalletClientUI } from '@fotonjs/core';
+import { createWalletClientUI } from '@zipsylabs/fotonjs-core';
 
 export const walletClient = createWalletClientUI({
   manifestUrl: 'https://example.com/tonconnect-manifest.json',
@@ -114,7 +114,7 @@ This code uses TON Connect and `@ton/core` and is surely difficult to understand
 In contrast, Foton keeps the deployment simple and readable:
 
 ```ts
-import { createContractClient, parseTon } from '@fotonjs/core';
+import { createContractClient, parseTon } from '@zipsylabs/fotonjs-core';
 import { publicClient, walletClient } from './ton-clients';
 import { Counter } from './contracts/Counter';
 

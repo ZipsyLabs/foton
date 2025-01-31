@@ -188,22 +188,22 @@ export { Counter } from './counter/counter_Counter';
 
 ## Making a dApp
 
-To create a dApp, let's install the `@fotonjs/core` library:
+To create a dApp, let's install the `@zipsylabs/fotonjs-core` library:
 
 <Tabs items={['npm', 'yarn', 'pnpm']}>
 <Tabs.Tab>
 ```bash
-npm install @fotonjs/core @ton/core
+npm install @zipsylabs/fotonjs-core @ton/core
 ```
 </Tabs.Tab>
 <Tabs.Tab>
 ```bash
-yarn add @fotonjs/core @ton/core
+yarn add @zipsylabs/fotonjs-core @ton/core
 ```
 </Tabs.Tab>
 <Tabs.Tab>
 ```bash
-pnpm add @fotonjs/core @ton/core
+pnpm add @zipsylabs/fotonjs-core @ton/core
 ```
 </Tabs.Tab>
 </Tabs>
@@ -229,7 +229,7 @@ Foton library lets you create clients – interfaces to interact with the TON bl
 For this tutorial, we will need a wallet client with UI, public client, and a contract client. Let's define them in `src/ton-clients.ts`:
 
 ```ts filename="src/ton-clients.ts"
-import { createWalletClientUI, createPublicClient, createContractClient } from '@fotonjs/core';
+import { createWalletClientUI, createPublicClient, createContractClient } from '@zipsylabs/fotonjs-core';
 
 import { Counter } from '../contracts';
 
@@ -322,7 +322,7 @@ In this hook we defined the basic logic for connecting and disconnecting the wal
 
 ```tsx filename="src/use-contract.tsx"
 import { useEffect, useState } from 'react';
-import { parseTon } from '@fotonjs/core';
+import { parseTon } from '@zipsylabs/fotonjs-core';
 
 import { counterClient, publicClient } from './ton-clients.ts';
 

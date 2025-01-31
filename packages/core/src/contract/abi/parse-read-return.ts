@@ -1,5 +1,5 @@
 import { ABITypeRef, Cell, ContractABI } from '@ton/core';
-import type { GetMethodParameterOutput, RunGetMethodResponse } from '@fotonjs/api';
+import type { GetMethodParameterOutput, RunGetMethodResponse } from '@zipsylabs/fotonjs-api';
 
 type ContractReadReturn = bigint | string;
 type ParsedReadReturn = undefined | bigint | boolean | string;

@@ -11,7 +11,7 @@ Call the `deploy` method of `ContractClient` with deployment arguments and wait 
 <Tabs items={['example.ts', 'client.ts']}>
 <Tabs.Tab>
 ```ts
-import { parseTon } from '@fotonjs/core';
+import { parseTon } from '@zipsylabs/fotonjs-core';
 import { contractClient, publicClient } from './client';
 
 const res = await contractClient.deploy({
@@ -28,7 +28,7 @@ if (res.data) {
 </Tabs.Tab>
 <Tabs.Tab>
 ```ts
-import { createWalletClient, createPublicClient, createContractClient } from '@fotonjs/core';
+import { createWalletClient, createPublicClient, createContractClient } from '@zipsylabs/fotonjs-core';
 import Contract from './Contract';
 
 export const publicClient = createWalletClient();

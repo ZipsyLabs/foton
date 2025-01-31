@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { parseTon } from '@fotonjs/core';
+import { parseTon } from '@zipsylabs/fotonjs-core';
 
 import { counterClient, publicClient } from '../ton-clients.ts';
 

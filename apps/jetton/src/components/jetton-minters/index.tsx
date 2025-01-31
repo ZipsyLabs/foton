@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react';
-import { JettonMaster, JettonWallet } from '@fotonjs/api';
+import { JettonMaster, JettonWallet } from '@zipsylabs/fotonjs-api';
 import { contractClient, publicClient } from '../../ton-clients.ts';
 import { shortenAddress } from '../../utils/shortenAddress.ts';
 import { useUserStore } from '../../stores/user-store.ts';

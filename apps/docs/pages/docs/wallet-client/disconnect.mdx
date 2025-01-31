@@ -16,7 +16,7 @@ const isDisconnected = await walletClient.disconnect();
 </Tabs.Tab>
 <Tabs.Tab>
 ```ts
-import { createWalletClient } from '@fotonjs/core';
+import { createWalletClient } from '@zipsylabs/fotonjs-core';
 
 export const walletClient = createWalletClient({
   manifestUrl: 'https://example.com/tonconnect-manifest.json',
@@ -24,7 +24,7 @@ export const walletClient = createWalletClient({
 
 // OR
 
-import { createWalletClientUI } from '@fotonjs/core';
+import { createWalletClientUI } from '@zipsylabs/fotonjs-core';
 
 export const walletClient = createWalletClientUI({
   manifestUrl: 'https://example.com/tonconnect-manifest.json',

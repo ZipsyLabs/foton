@@ -1,5 +1,5 @@
 {
-  "name": "@fotonjs/jetton",
+  "name": "@zipsylabs/fotonjs-jetton",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -11,15 +11,15 @@
     "compile": "tact --config ./tact.config.json"
   },
   "dependencies": {
-    "@fotonjs/contracts": "link:../../packages/contracts",
+    "@zipsylabs/fotonjs-contracts": "link:../../packages/contracts",
     "@ton/core": "^0.56.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "zustand": "^4.5.4"
   },
   "devDependencies": {
-    "@fotonjs/api": "workspace:*",
-    "@fotonjs/core": "workspace:*",
+    "@zipsylabs/fotonjs-api": "workspace:*",
+    "@zipsylabs/fotonjs-core": "workspace:*",
     "@tact-lang/compiler": "^1.4.0",
     "@ton/blueprint": "^0.20.0",
     "@types/react": "^18.3.3",

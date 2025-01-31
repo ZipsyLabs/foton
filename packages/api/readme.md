@@ -1,4 +1,4 @@
-# @fotonjs/api
+# @zipsylabs/fotonjs-api
 
 A library to fetch the data from TON using [Ton Center API](https://toncenter.com/).
 
@@ -13,13 +13,13 @@ By default, the requests are limited to 1 request per second. If you want more t
 To install the library, run:
 
 ```bash
-npm install @fotonjs/api
+npm install @zipsylabs/fotonjs-api
 ```
 
 Then, create an API Client – the interface with all RPC methods:
 
 ```ts
-import { createClient } from '@fotonjs/api';
+import { createClient } from '@zipsylabs/fotonjs-api';
 
 const apiClient = createClient({
   api: 'mainnet',

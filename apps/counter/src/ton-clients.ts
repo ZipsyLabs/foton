@@ -1,5 +1,5 @@
-import { createWalletClientUI, createPublicClient, createContractClient } from '@fotonjs/core';
-import { SimpleCounter } from '@fotonjs/contracts/counter';
+import { createWalletClientUI, createPublicClient, createContractClient } from '@zipsylabs/fotonjs-core';
+import { SimpleCounter } from '@zipsylabs/fotonjs-contracts/counter';
 
 export const walletClient = createWalletClientUI({
   chain: 'testnet',

@@ -2,7 +2,7 @@ import { FC, FormEventHandler, useState } from 'react';
 import styles from './styles.module.css';
 import { AppSection } from '../section';
 import { contractClient, publicClient } from '../../ton-clients.ts';
-import { parseTon } from '@fotonjs/core';
+import { parseTon } from '@zipsylabs/fotonjs-core';
 
 type ActionTabs = 'mint' | 'transfer' | 'burn';
 

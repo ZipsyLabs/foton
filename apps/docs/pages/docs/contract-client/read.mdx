@@ -11,7 +11,7 @@ Call the `read` method of `ContractClient` with the getter name and its argument
 <Tabs items={['example.ts', 'client.ts']}>
 <Tabs.Tab>
 ```ts
-import { parseTon } from '@fotonjs/core';
+import { parseTon } from '@zipsylabs/fotonjs-core';
 import { contractClient, publicClient } from './client';
 
 // Imagine the contract is a counter with `counter` getter.
@@ -24,7 +24,7 @@ const res = await contractClient.read({
 </Tabs.Tab>
 <Tabs.Tab>
 ```ts
-import { createWalletClient, createPublicClient, createContractClient } from '@fotonjs/core';
+import { createWalletClient, createPublicClient, createContractClient } from '@zipsylabs/fotonjs-core';
 import Contract from './Contract';
 
 export const publicClient = createWalletClient();

@@ -1,4 +1,4 @@
-import type { Transaction } from '@fotonjs/api';
+import type { Transaction } from '@zipsylabs/fotonjs-api';
 import type { PublicClient, RpcClient } from './types.js';
 
 const getTransactionsByMessageHash = async (api: RpcClient, hash: string) => {

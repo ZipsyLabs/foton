@@ -1,5 +1,5 @@
-import { createWalletClientUI, createPublicClient, createContractClient } from '@fotonjs/core';
-import { SampleJetton } from '@fotonjs/contracts/jetton';
+import { createWalletClientUI, createPublicClient, createContractClient } from '@zipsylabs/fotonjs-core';
+import { SampleJetton } from '@zipsylabs/fotonjs-contracts/jetton';
 import { API_KEY } from './utils/constants.ts';
 
 export const walletClient = createWalletClientUI({
