@@ -1,5 +1,4 @@
-import isWalletInfoInjectable from '@zipsylabs/tonconnect-sdk';
-import isWalletInfoRemote from '@zipsylabs/tonconnect-sdk';
+import { isWalletInfoInjectable, isWalletInfoRemote } from '@zipsylabs/tonconnect-sdk';
 
 import type { Wallet, WalletClientBase, WalletInfo } from './types.js';
 import { isTonConnect } from './utils.js';

@@ -21,11 +21,11 @@ importers:
         specifier: workspace:*
         version: link:../../packages/contracts
       '@zipsylabs/tonconnect-ui':
-        specifier: ^3.0.2
-        version: 3.0.2(@types/debug@4.1.12)(@types/node@22.7.7)
+        specifier: ^3.0.3
+        version: 3.0.3(@types/debug@4.1.12)(@types/node@22.7.7)
       '@zipsylabs/tonconnect-ui-react':
-        specifier: ^3.0.2
-        version: 3.0.2(@types/node@22.7.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^3.0.3
+        version: 3.0.3(@types/node@22.7.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -261,11 +261,11 @@ importers:
         specifier: workspace:^
         version: link:../api
       '@zipsylabs/tonconnect-sdk':
-        specifier: ^4.0.2
-        version: 4.0.2(@types/debug@4.1.12)(@types/node@22.7.7)
+        specifier: ^4.0.3
+        version: 4.0.3(@types/debug@4.1.12)(@types/node@22.7.7)
       '@zipsylabs/tonconnect-ui':
-        specifier: ^3.0.2
-        version: 3.0.2(@types/debug@4.1.12)(@types/node@22.7.7)
+        specifier: ^3.0.3
+        version: 3.0.3(@types/debug@4.1.12)(@types/node@22.7.7)
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
@@ -2072,20 +2072,20 @@ packages:
   '@zipsylabs/tonconnect-isomorphic-fetch@1.0.0':
     resolution: {integrity: sha512-RY+mhb6N8AaNyKwNgKNKteISMnYDXZBRr6NiRz1sOv+aNSN9Nr02RVNXU7TESdMSDeEFWhYhhS1X8UZ80sr1WA==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-isomorphic-fetch/1.0.0/f4bf346cd5871e1ed390d62585f01f8a05c7169a}
 
-  '@zipsylabs/tonconnect-protocol@3.0.1':
-    resolution: {integrity: sha512-qxTPgDPnHKwVLPk2hP/lHOCZl8mXIljFzHIsP+jzfesGh+ZeyqqtzolBCR/7MOAgKh8H9xkHleLsLbIktcoiLQ==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-protocol/3.0.1/87352bc839c22a55833a8cfe1ba3a59da2dd5cbd}
+  '@zipsylabs/tonconnect-protocol@3.0.2':
+    resolution: {integrity: sha512-ZEs01itPCLn/5FatspugbQwFZtiAhoCxJcyQuTKjP8S2LPTkUKAYhppLYPTG3KizvoQezdeIAEuLqn/3q+i2UA==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-protocol/3.0.2/2a41fdcdc59f4d81686010157a20fe84c957b95d}
 
-  '@zipsylabs/tonconnect-sdk@4.0.2':
-    resolution: {integrity: sha512-CIaximjfoqYRXfgH6oakx02aogoscjfgGcLbxO/Og+YYRx3XBLu4dILtTzBHg+Pw6oYElH16QNSP0I84ts74Kg==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-sdk/4.0.2/cdad8677b374306bbb96bac66b11ea72d6e742bf}
+  '@zipsylabs/tonconnect-sdk@4.0.3':
+    resolution: {integrity: sha512-leS8iwp1DU4XjjMH6EyGmdW2WIIZ/FZ410BVvPe8bJpbMyWARitsvbNXntqEhanoxY3ZQ4bMdYEez99RW5trXA==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-sdk/4.0.3/e459d06d8a8a5848de35d359a7410a0dee64b41d}
 
-  '@zipsylabs/tonconnect-ui-react@3.0.2':
-    resolution: {integrity: sha512-cUybovu05MoBVvFmSR46OsbcgJqGiWuroGbw6MTvurnWfCZGUGjYxd2C1LfmfrowqzPJXK6GZzYeLnqo4/a0AA==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-ui-react/3.0.2/aaad58f3a2d2773c136c28ad422d193edbdd1549}
+  '@zipsylabs/tonconnect-ui-react@3.0.3':
+    resolution: {integrity: sha512-rEJyCqCGvIE4kb2klNJZIwP8so/EoUWvX7+xMcxpryhUY0pJ2CsSji3jyxCesohdfqgz3vwMvAgKGut0M0YsEQ==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-ui-react/3.0.3/3f9d516f18df4f0fb26fc57f77556c83687bfdeb}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@zipsylabs/tonconnect-ui@3.0.2':
-    resolution: {integrity: sha512-+RbzhGsOHKkCc+jF5XCwgj0jEkMsO0+B/tRZf4Tx+kYcYDxL88P11Gm0BpYch5cOdCtgZQ7ZBA2f394tXCfeAA==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-ui/3.0.2/f56860cee33e8d694ad00f5398f2480ffc843efc}
+  '@zipsylabs/tonconnect-ui@3.0.3':
+    resolution: {integrity: sha512-jMxMyNNCJSU0rCSURiykCVtFMZ95fLkyCzK63GG8NWrA2I0q77z7F0QlyahDNNZ0CLcXgmWEwWczn21uchAu/w==, tarball: https://npm.pkg.github.com/download/@zipsylabs/tonconnect-ui/3.0.3/13ed7c768d467dfb1b26fce6ceeeb3d42f083666}
 
   abitype@1.0.5:
     resolution: {integrity: sha512-YzDhti7cjlfaBhHutMaboYB21Ha3rXR9QTkNJFzYC4kC8YclaiwPBBBJY8ejFdu2wnJeZCVZSMlQJ7fi8S6hsw==}
@@ -7921,16 +7921,16 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@zipsylabs/tonconnect-protocol@3.0.1':
+  '@zipsylabs/tonconnect-protocol@3.0.2':
     dependencies:
       tweetnacl: 1.0.3
       tweetnacl-util: 0.15.1
 
-  '@zipsylabs/tonconnect-sdk@4.0.2(@types/debug@4.1.12)(@types/node@22.7.7)':
+  '@zipsylabs/tonconnect-sdk@4.0.3(@types/debug@4.1.12)(@types/node@22.7.7)':
     dependencies:
       '@zipsylabs/tonconnect-isomorphic-eventsource': 1.0.0
       '@zipsylabs/tonconnect-isomorphic-fetch': 1.0.0
-      '@zipsylabs/tonconnect-protocol': 3.0.1
+      '@zipsylabs/tonconnect-protocol': 3.0.2
       vitest: 3.0.4(@types/debug@4.1.12)(@types/node@22.7.7)
       vitest-fetch-mock: 0.4.3(vitest@3.0.4(@types/debug@4.1.12)(@types/node@22.7.7))
     transitivePeerDependencies:
@@ -7951,9 +7951,9 @@ snapshots:
       - supports-color
       - terser
 
-  '@zipsylabs/tonconnect-ui-react@3.0.2(@types/node@22.7.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@zipsylabs/tonconnect-ui-react@3.0.3(@types/node@22.7.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@zipsylabs/tonconnect-ui': 3.0.2(@types/debug@4.1.12)(@types/node@22.7.7)
+      '@zipsylabs/tonconnect-ui': 3.0.3(@types/debug@4.1.12)(@types/node@22.7.7)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
@@ -7974,9 +7974,9 @@ snapshots:
       - supports-color
       - terser
 
-  '@zipsylabs/tonconnect-ui@3.0.2(@types/debug@4.1.12)(@types/node@22.7.7)':
+  '@zipsylabs/tonconnect-ui@3.0.3(@types/debug@4.1.12)(@types/node@22.7.7)':
     dependencies:
-      '@zipsylabs/tonconnect-sdk': 4.0.2(@types/debug@4.1.12)(@types/node@22.7.7)
+      '@zipsylabs/tonconnect-sdk': 4.0.3(@types/debug@4.1.12)(@types/node@22.7.7)
       classnames: 2.5.1
       csstype: 3.1.3
       deepmerge: 4.3.1

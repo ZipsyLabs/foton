@@ -1,5 +1,4 @@
-import {type TonConnectOptions } from '@zipsylabs/tonconnect-sdk';
-import TonConnect from '@zipsylabs/tonconnect-sdk';
+import { TonConnect, type TonConnectOptions } from '@zipsylabs/tonconnect-sdk';
 
 import type { Chain } from '../shared/chains.js';
 
