@@ -1,4 +1,4 @@
-import { CHAIN } from '@tonconnect/sdk';
+import { CHAIN } from '@zipsylabs/tonconnect-sdk';
 
 export type Chain = 'mainnet' | 'testnet';
 

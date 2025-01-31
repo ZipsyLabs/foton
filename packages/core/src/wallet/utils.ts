@@ -1,5 +1,5 @@
-import type { TonConnect } from '@tonconnect/sdk';
-import type { TonConnectUI } from '@tonconnect/ui';
+import type { TonConnect } from '@zipsylabs/tonconnect-sdk';
+import type { TonConnectUI } from '@zipsylabs/tonconnect-ui';
 
 export const isTonConnectUI = (tonConnect: TonConnectUI | TonConnect): tonConnect is TonConnectUI => {
   return (tonConnect && 'closeModal' in tonConnect && 'openModal' in tonConnect && 'uiOptions' in tonConnect && 'modalState' in tonConnect);

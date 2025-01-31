@@ -16,10 +16,10 @@ importers:
       '@ton/core':
         specifier: ^0.56.3
         version: 0.56.3(@ton/crypto@3.3.0)
-      '@tonconnect/ui':
+      '@zipsylabs/tonconnect-ui':
         specifier: ^2.0.6
         version: 2.0.6
-      '@tonconnect/ui-react':
+      '@zipsylabs/tonconnect-ui-react':
         specifier: ^2.0.6
         version: 2.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
@@ -1754,34 +1754,34 @@ packages:
       '@ton/core': '>=0.56.0'
       '@ton/crypto': '>=3.2.0'
 
-  '@tonconnect/isomorphic-eventsource@0.0.1':
+  '@zipsylabs/tonconnect-isomorphic-eventsource@0.0.1':
     resolution: {integrity: sha512-ODk48pMlqLSOvu3fM0R1sdlz/Cv2y4hSfwtXmLq9ky9+H7ZQfw/16ElpIJ69B4lUvHycxrueNgrRtF9PJHoGMw==}
 
-  '@tonconnect/isomorphic-eventsource@0.0.2':
+  '@zipsylabs/tonconnect-isomorphic-eventsource@0.0.2':
     resolution: {integrity: sha512-B4UoIjPi0QkvIzZH5fV3BQLWrqSYABdrzZQSI9sJA9aA+iC0ohOzFwVVGXanlxeDAy1bcvPbb29f6sVUk0UnnQ==}
 
-  '@tonconnect/isomorphic-fetch@0.0.2':
+  '@zipsylabs/tonconnect-isomorphic-fetch@0.0.2':
     resolution: {integrity: sha512-DAyA4oL7MqbBo9k8+8E+YiWsGCYi6UMhDTcsZjhgzhESkBNG6b+NBkpb1KH4oi0xDZQoknFtY9XogJLuQtSMQQ==}
 
-  '@tonconnect/isomorphic-fetch@0.0.3':
+  '@zipsylabs/tonconnect-isomorphic-fetch@0.0.3':
     resolution: {integrity: sha512-jIg5nTrDwnite4fXao3dD83eCpTvInTjZon/rZZrIftIegh4XxyVb5G2mpMqXrVGk1e8SVXm3Kj5OtfMplQs0w==}
 
-  '@tonconnect/protocol@2.2.6':
+  '@zipsylabs/tonconnect-protocol@2.2.6':
     resolution: {integrity: sha512-kyoDz5EqgsycYP+A+JbVsAUYHNT059BCrK+m0pqxykMODwpziuSAXfwAZmHcg8v7NB9VKYbdFY55xKeXOuEd0w==}
 
-  '@tonconnect/sdk@2.2.0':
+  '@zipsylabs/tonconnect-sdk@2.2.0':
     resolution: {integrity: sha512-8plnAXzaLhapUnt47ZqAOQSIQ8NHSvgTSR74QVJdPWqg8128smgGM4cDYewKdBfTD6Lup0odT1WMMrJu+rE4NQ==}
 
-  '@tonconnect/sdk@3.0.3':
+  '@zipsylabs/tonconnect-sdk@3.0.3':
     resolution: {integrity: sha512-ElVre1DPixzQLgLtQIa8Wu5xS8nozlgblZTJhFFPrk82M2rZ+sawyF+LAVwt9wZRN7+htWnJrNz0+bBr4b3geA==}
 
-  '@tonconnect/ui-react@2.0.6':
+  '@zipsylabs/tonconnect-ui-react@2.0.6':
     resolution: {integrity: sha512-9VRYP2o/YW4ti+rOMSptIYaRO39V5UFmzdUl18AmDFDdynjacAIht/IInO+AGAKfrnF9bUk/J5NgLcbxVqvZww==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
 
-  '@tonconnect/ui@2.0.6':
+  '@zipsylabs/tonconnect-ui@2.0.6':
     resolution: {integrity: sha512-JMTSxgbnpDjpHi9g0s7w3tpAiLHa8BHUpaBrbSTDcKGQVEm7+NtqhN+gQkGkm8pV7NYRqiS/sKUpRQ1MyjtTBQ==}
 
   '@tsconfig/node10@1.0.11':
@@ -7253,7 +7253,7 @@ snapshots:
       '@ton/core': 0.56.3(@ton/crypto@3.3.0)
       '@ton/crypto': 3.3.0
       '@ton/ton': 13.11.2(@ton/core@0.56.3(@ton/crypto@3.3.0))(@ton/crypto@3.3.0)
-      '@tonconnect/sdk': 2.2.0
+      '@zipsylabs/tonconnect-sdk': 2.2.0
       arg: 5.0.2
       chalk: 4.1.2
       dotenv: 16.4.5
@@ -7307,58 +7307,58 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@tonconnect/isomorphic-eventsource@0.0.1':
+  '@zipsylabs/tonconnect-isomorphic-eventsource@0.0.1':
     dependencies:
       eventsource: 2.0.2
 
-  '@tonconnect/isomorphic-eventsource@0.0.2':
+  '@zipsylabs/tonconnect-isomorphic-eventsource@0.0.2':
     dependencies:
       eventsource: 2.0.2
 
-  '@tonconnect/isomorphic-fetch@0.0.2':
+  '@zipsylabs/tonconnect-isomorphic-fetch@0.0.2':
     dependencies:
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/isomorphic-fetch@0.0.3':
+  '@zipsylabs/tonconnect-isomorphic-fetch@0.0.3':
     dependencies:
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/protocol@2.2.6':
+  '@zipsylabs/tonconnect-protocol@2.2.6':
     dependencies:
       tweetnacl: 1.0.3
       tweetnacl-util: 0.15.1
 
-  '@tonconnect/sdk@2.2.0':
+  '@zipsylabs/tonconnect-sdk@2.2.0':
     dependencies:
-      '@tonconnect/isomorphic-eventsource': 0.0.1
-      '@tonconnect/isomorphic-fetch': 0.0.2
-      '@tonconnect/protocol': 2.2.6
+      '@zipsylabs/tonconnect-isomorphic-eventsource': 0.0.1
+      '@zipsylabs/tonconnect-isomorphic-fetch': 0.0.2
+      '@zipsylabs/tonconnect-protocol': 2.2.6
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/sdk@3.0.3':
+  '@zipsylabs/tonconnect-sdk@3.0.3':
     dependencies:
-      '@tonconnect/isomorphic-eventsource': 0.0.2
-      '@tonconnect/isomorphic-fetch': 0.0.3
-      '@tonconnect/protocol': 2.2.6
+      '@zipsylabs/tonconnect-isomorphic-eventsource': 0.0.2
+      '@zipsylabs/tonconnect-isomorphic-fetch': 0.0.3
+      '@zipsylabs/tonconnect-protocol': 2.2.6
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/ui-react@2.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@zipsylabs/tonconnect-ui-react@2.0.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@tonconnect/ui': 2.0.6
+      '@zipsylabs/tonconnect-ui': 2.0.6
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - encoding
 
-  '@tonconnect/ui@2.0.6':
+  '@zipsylabs/tonconnect-ui@2.0.6':
     dependencies:
-      '@tonconnect/sdk': 3.0.3
+      '@zipsylabs/tonconnect-sdk': 3.0.3
       classnames: 2.5.1
       deepmerge: 4.3.1
       ua-parser-js: 1.0.38

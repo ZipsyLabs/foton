@@ -1,5 +1,5 @@
-import type { TonConnect, TonConnectError, Wallet, WalletInfo } from '@tonconnect/sdk';
-import type { TonConnectUI, TonConnectUIError } from '@tonconnect/ui';
+import type { TonConnect, TonConnectError, Wallet, WalletInfo } from '@zipsylabs/tonconnect-sdk';
+import type { TonConnectUI, TonConnectUIError } from '@zipsylabs/tonconnect-ui';
 
 import type { Chain } from '../shared/chains.js';
 

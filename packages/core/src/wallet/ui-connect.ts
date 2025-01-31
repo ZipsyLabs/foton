@@ -1,7 +1,7 @@
 import type { Wallet, WalletClientBase, WalletInfo } from './types.js';
 import { isTonConnectUI } from './utils.js';
 import { returnError, DataOrTypedError, returnData } from '../shared/errors/index.js';
-import { TonConnectUI } from '@tonconnect/ui';
+import { TonConnectUI } from '@zipsylabs/tonconnect-ui';
 
 const openConnectionModal = async (client: WalletClientBase, connector?: WalletInfo): Promise<void> => {
   const connection = client.connection as TonConnectUI;

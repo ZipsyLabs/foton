@@ -62,10 +62,10 @@ const walletClient = createWalletClient({
 - Type: `TonConnect{:ts}`
 - Required if `manifestUrl` is not provided
 
-An instance of the [`@tonconnect/sdk`](https://www.npmjs.com/package/@tonconnect/sdk). Needed for integration between Foton and Ton Connect.
+An instance of the [`@zipsylabs/tonconnect-sdk`](https://www.npmjs.com/package/@zipsylabs/tonconnect-sdk). Needed for integration between Foton and Ton Connect.
 
 ```ts
-import { TonConnect } from '@tonconnect/sdk';
+import { TonConnect } from '@zipsylabs/tonconnect-sdk';
 
 const tonConnect = new TonConnect({
   manifestUrl: 'https://example.com/tonconnect-manifest.json',
