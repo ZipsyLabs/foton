@@ -41,16 +41,16 @@
     ]
   },
   "dependencies": {
-    "@oclif/core": "^3",
-    "@oclif/plugin-help": "^6",
-    "@tact-lang/compiler": "^1.2.0",
+    "@oclif/core": "^3.27.0",
+    "@oclif/plugin-help": "^6.2.23",
+    "@tact-lang/compiler": "^1.5.3",
     "zx": "^7.2.3"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "oclif": "^4.7.3",
+    "@types/node": "^22.13.0",
+    "oclif": "^4.17.21",
     "shx": "^0.3.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^5.7.3"
   }
 }

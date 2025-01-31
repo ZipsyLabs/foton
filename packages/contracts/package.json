@@ -43,11 +43,11 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@ton/core": "^0.56.3",
-    "typescript": "^5.5.4"
+    "@ton/core": "^0.60.0"
   },
   "devDependencies": {
-    "@types/node": "^20.14.12",
-    "tsup": "^8.2.3"
+    "@types/node": "^22.13.0",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
   }
 }

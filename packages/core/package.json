@@ -41,13 +41,13 @@
   },
   "dependencies": {
     "@zipsylabs/fotonjs-api": "workspace:^",
-    "@ton/core": "^0.59.0",
+    "@ton/core": "^0.60.0",
     "@ton/crypto": "^3.3.0",
     "@zipsylabs/tonconnect-sdk": "^4.0.3",
-    "@zipsylabs/tonconnect-ui": "^3.0.3",
-    "typescript": "^5.6.3"
+    "@zipsylabs/tonconnect-ui": "^3.0.3"
   },
   "devDependencies": {
-    "tsup": "^8.3.0"
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
   }
 }
