@@ -1,0 +1,45 @@
+name: Build and Run changeset
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - ".changeset/**.md"
+
+jobs:
+  run-changeset:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@zipsylabs'
+
+      - uses: pnpm/action-setup@v4
+
+      - name: Install dependencies
+        run: pnpm install
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Build packages
+        run: pnpm build:core
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Run changeset
+        uses: changesets/action@v1
+        with:
+          publish: pnpm changeset publish
+          commit: 'chore(packages): version packages'
+          title: 'chore(packages): version packages'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
