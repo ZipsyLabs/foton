@@ -1,5 +1,11 @@
 # @zipsylabs/fotonjs-core
 
+## 0.1.2
+
+### Patch Changes
+
+- 18b9434: Use updated versions
+
 ## 0.1.1
 
 ### Patch Changes
