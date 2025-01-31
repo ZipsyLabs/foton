@@ -36,6 +36,7 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --dts --minify --format cjs,esm --out-dir ./dist",
+    "clean": "rimraf dist node_modules",
     "prepare": "pnpm run build",
     "prepublishOnly": "pnpm run build"
   },
@@ -43,8 +44,8 @@
     "@zipsylabs/fotonjs-api": "workspace:^",
     "@ton/core": "^0.60.0",
     "@ton/crypto": "^3.3.0",
-    "@zipsylabs/tonconnect-sdk": "^4.0.3",
-    "@zipsylabs/tonconnect-ui": "^3.0.3"
+    "@zipsylabs/tonconnect-sdk": "^4.0.4",
+    "@zipsylabs/tonconnect-ui": "^3.1.1"
   },
   "devDependencies": {
     "tsup": "^8.3.6",

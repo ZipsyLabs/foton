@@ -39,6 +39,7 @@
   },
   "scripts": {
     "build": "tsup src/*/index.ts --dts --minify --format cjs,esm --out-dir ./dist",
+    "clean": "rimraf dist node_modules",
     "prepare": "pnpm run build",
     "prepublishOnly": "pnpm run build"
   },

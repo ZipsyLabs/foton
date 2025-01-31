@@ -23,12 +23,13 @@
   "scripts": {
     "cli": "pnpm --filter @zipsylabs/fotonjs-cli dev",
     "build:core": "pnpm --filter @zipsylabs/fotonjs-core build",
+    "clean": "pnpm -r clean",
     "prepublish": "pnpm build:core",
     "publish:core": "pnpm publish --filter @zipsylabs/fotonjs-core",
     "publish:api": "pnpm publish --filter @zipsylabs/fotonjs-api"
   },
   "packageManager": "pnpm@10.1.0",
   "devDependencies": {
-    "@changesets/cli": "^2.27.12"
-  }
+    "@changesets/cli": "^2.27.12",
+    "rimraf": "^6.0.1"}
 }
