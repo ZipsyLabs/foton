@@ -43,8 +43,8 @@
     "@fotonjs/api": "workspace:^",
     "@ton/core": "^0.59.0",
     "@ton/crypto": "^3.3.0",
-    "@tonconnect/sdk": "^3.0.5",
-    "@tonconnect/ui": "^2.0.9",
+    "@zipsylabs/tonconnect-sdk": "^4.0.0",
+    "@zipsylabs/tonconnect-ui": "^3.0.0",
     "typescript": "^5.6.3"
   },
   "devDependencies": {
